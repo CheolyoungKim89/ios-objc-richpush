@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D7AFCA62689FC9900BEA6D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AFCA52689FC9900BEA6D9 /* AppDelegate.m */; };
+		3D7AFCAC2689FC9900BEA6D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AFCAB2689FC9900BEA6D9 /* ViewController.m */; };
+		3D7AFCAF2689FC9900BEA6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7AFCAD2689FC9900BEA6D9 /* Main.storyboard */; };
+		3D7AFCB12689FC9900BEA6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7AFCB02689FC9900BEA6D9 /* Assets.xcassets */; };
+		3D7AFCB42689FC9900BEA6D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7AFCB22689FC9900BEA6D9 /* LaunchScreen.storyboard */; };
+		3D7AFCB72689FC9900BEA6D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AFCB62689FC9900BEA6D9 /* main.m */; };
+		3D7AFCCA2689FE0C00BEA6D9 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AFCC92689FE0C00BEA6D9 /* NotificationService.m */; };
+		3D7AFCCE2689FE0C00BEA6D9 /* NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3D7AFCC62689FE0C00BEA6D9 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DB10AD1268B155800B4933E /* KANGCHEOLE_BANNER.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB10AD0268B155800B4933E /* KANGCHEOLE_BANNER.png */; };
+		3DB10AD2268B155800B4933E /* KANGCHEOLE_BANNER.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DB10AD0268B155800B4933E /* KANGCHEOLE_BANNER.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D7AFCCC2689FE0C00BEA6D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D7AFC992689FC9900BEA6D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D7AFCC52689FE0C00BEA6D9;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D7AFCD22689FE0C00BEA6D9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3D7AFCCE2689FE0C00BEA6D9 /* NotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D7AFCA12689FC9900BEA6D9 /* IronK-RichPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IronK-RichPush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7AFCA42689FC9900BEA6D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D7AFCA52689FC9900BEA6D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D7AFCAA2689FC9900BEA6D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D7AFCAB2689FC9900BEA6D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D7AFCAE2689FC9900BEA6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D7AFCB02689FC9900BEA6D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D7AFCB32689FC9900BEA6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D7AFCB52689FC9900BEA6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7AFCB62689FC9900BEA6D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D7AFCC62689FE0C00BEA6D9 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7AFCC82689FE0C00BEA6D9 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		3D7AFCC92689FE0C00BEA6D9 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		3D7AFCCB2689FE0C00BEA6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D7AFCDB2689FEC000BEA6D9 /* IronK-RichPushDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "IronK-RichPushDebug.entitlements"; sourceTree = "<group>"; };
+		3DB10AD0268B155800B4933E /* KANGCHEOLE_BANNER.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KANGCHEOLE_BANNER.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D7AFC9E2689FC9900BEA6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7AFCC32689FE0C00BEA6D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D7AFC982689FC9900BEA6D9 = {
+			isa = PBXGroup;
+			children = (
+				3D7AFCA32689FC9900BEA6D9 /* IronK-RichPush */,
+				3D7AFCC72689FE0C00BEA6D9 /* NotificationServiceExtension */,
+				3D7AFCA22689FC9900BEA6D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D7AFCA22689FC9900BEA6D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D7AFCA12689FC9900BEA6D9 /* IronK-RichPush.app */,
+				3D7AFCC62689FE0C00BEA6D9 /* NotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D7AFCA32689FC9900BEA6D9 /* IronK-RichPush */ = {
+			isa = PBXGroup;
+			children = (
+				3D7AFCDB2689FEC000BEA6D9 /* IronK-RichPushDebug.entitlements */,
+				3D7AFCA42689FC9900BEA6D9 /* AppDelegate.h */,
+				3D7AFCA52689FC9900BEA6D9 /* AppDelegate.m */,
+				3D7AFCAA2689FC9900BEA6D9 /* ViewController.h */,
+				3D7AFCAB2689FC9900BEA6D9 /* ViewController.m */,
+				3DB10AD0268B155800B4933E /* KANGCHEOLE_BANNER.png */,
+				3D7AFCAD2689FC9900BEA6D9 /* Main.storyboard */,
+				3D7AFCB02689FC9900BEA6D9 /* Assets.xcassets */,
+				3D7AFCB22689FC9900BEA6D9 /* LaunchScreen.storyboard */,
+				3D7AFCB52689FC9900BEA6D9 /* Info.plist */,
+				3D7AFCB62689FC9900BEA6D9 /* main.m */,
+			);
+			path = "IronK-RichPush";
+			sourceTree = "<group>";
+		};
+		3D7AFCC72689FE0C00BEA6D9 /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3D7AFCC82689FE0C00BEA6D9 /* NotificationService.h */,
+				3D7AFCC92689FE0C00BEA6D9 /* NotificationService.m */,
+				3D7AFCCB2689FE0C00BEA6D9 /* Info.plist */,
+			);
+			path = NotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D7AFCA02689FC9900BEA6D9 /* IronK-RichPush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7AFCBA2689FC9900BEA6D9 /* Build configuration list for PBXNativeTarget "IronK-RichPush" */;
+			buildPhases = (
+				3D7AFC9D2689FC9900BEA6D9 /* Sources */,
+				3D7AFC9E2689FC9900BEA6D9 /* Frameworks */,
+				3D7AFC9F2689FC9900BEA6D9 /* Resources */,
+				3D7AFCD22689FE0C00BEA6D9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D7AFCCD2689FE0C00BEA6D9 /* PBXTargetDependency */,
+			);
+			name = "IronK-RichPush";
+			productName = "IronK-RichPush";
+			productReference = 3D7AFCA12689FC9900BEA6D9 /* IronK-RichPush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D7AFCC52689FE0C00BEA6D9 /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7AFCCF2689FE0C00BEA6D9 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				3D7AFCC22689FE0C00BEA6D9 /* Sources */,
+				3D7AFCC32689FE0C00BEA6D9 /* Frameworks */,
+				3D7AFCC42689FE0C00BEA6D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationServiceExtension;
+			productName = NotificationServiceExtension;
+			productReference = 3D7AFCC62689FE0C00BEA6D9 /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D7AFC992689FC9900BEA6D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3D7AFCA02689FC9900BEA6D9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3D7AFCC52689FE0C00BEA6D9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3D7AFC9C2689FC9900BEA6D9 /* Build configuration list for PBXProject "IronK-RichPush" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D7AFC982689FC9900BEA6D9;
+			productRefGroup = 3D7AFCA22689FC9900BEA6D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D7AFCA02689FC9900BEA6D9 /* IronK-RichPush */,
+				3D7AFCC52689FE0C00BEA6D9 /* NotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D7AFC9F2689FC9900BEA6D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7AFCB42689FC9900BEA6D9 /* LaunchScreen.storyboard in Resources */,
+				3D7AFCB12689FC9900BEA6D9 /* Assets.xcassets in Resources */,
+				3DB10AD1268B155800B4933E /* KANGCHEOLE_BANNER.png in Resources */,
+				3D7AFCAF2689FC9900BEA6D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7AFCC42689FE0C00BEA6D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB10AD2268B155800B4933E /* KANGCHEOLE_BANNER.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D7AFC9D2689FC9900BEA6D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7AFCAC2689FC9900BEA6D9 /* ViewController.m in Sources */,
+				3D7AFCA62689FC9900BEA6D9 /* AppDelegate.m in Sources */,
+				3D7AFCB72689FC9900BEA6D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D7AFCC22689FE0C00BEA6D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7AFCCA2689FE0C00BEA6D9 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D7AFCCD2689FE0C00BEA6D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D7AFCC52689FE0C00BEA6D9 /* NotificationServiceExtension */;
+			targetProxy = 3D7AFCCC2689FE0C00BEA6D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D7AFCAD2689FC9900BEA6D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D7AFCAE2689FC9900BEA6D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D7AFCB22689FC9900BEA6D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D7AFCB32689FC9900BEA6D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D7AFCB82689FC9900BEA6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D7AFCB92689FC9900BEA6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D7AFCBB2689FC9900BEA6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "IronK-RichPush/IronK-RichPushDebug.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "IronK-RichPush/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ironk.IronK-RichPush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D7AFCBC2689FC9900BEA6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "IronK-RichPush/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ironk.IronK-RichPush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3D7AFCD02689FE0C00BEA6D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ironk.IronK-RichPush.NotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D7AFCD12689FE0C00BEA6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ironk.IronK-RichPush.NotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D7AFC9C2689FC9900BEA6D9 /* Build configuration list for PBXProject "IronK-RichPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7AFCB82689FC9900BEA6D9 /* Debug */,
+				3D7AFCB92689FC9900BEA6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7AFCBA2689FC9900BEA6D9 /* Build configuration list for PBXNativeTarget "IronK-RichPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7AFCBB2689FC9900BEA6D9 /* Debug */,
+				3D7AFCBC2689FC9900BEA6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7AFCCF2689FE0C00BEA6D9 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D7AFCD02689FE0C00BEA6D9 /* Debug */,
+				3D7AFCD12689FE0C00BEA6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D7AFC992689FC9900BEA6D9 /* Project object */;
+}
